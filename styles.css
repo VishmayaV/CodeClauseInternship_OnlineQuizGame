@@ -1,0 +1,84 @@
+/* css for all */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+  }
+
+  body {
+	background: linear-gradient(-45deg, #b0ee52, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 50vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  
+  
+  .quiz-container {
+	width: 30%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 22px;
+	margin-top: 100px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question {
+	margin-bottom: 20px;
+  }
+  
+  #options {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  #options li {
+	margin-bottom: 10px;
+  }
+  
+  #options input[type="radio"] {
+	margin-right: 10px;
+  }
+  
+  #submit-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: -6px;
+  }
+  
+  #submit-btn:hover {
+	background-color: #3e8e41;
+  }
+  
+  .result {
+	margin-top: 20px;
+  }
+  
+  #result-text {
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+  }
+
+

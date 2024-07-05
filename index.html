@@ -1,0 +1,29 @@
+<!-- this is the second html file -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <center><h1>Quiz Game</h1></center>
+		<div class="question">
+			<p id="question-text"></p>
+			<ul id="options">
+				<li><input type="radio" id="option1" name="option"><label for="option1"></label></li>
+				<li><input type="radio" id="option2" name="option"><label for="option2"></label></li>
+				<li><input type="radio" id="option3" name="option"><label for="option3"></label></li>
+				<li><input type="radio" id="option4" name="option"><label for="option4"></label></li>
+			</ul>
+			<center><button id="submit-btn">Submit</button></center>
+		</div>
+		<div class="result">
+			<p id="result-text"></p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
