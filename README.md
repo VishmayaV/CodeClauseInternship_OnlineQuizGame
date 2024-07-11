@@ -39,8 +39,8 @@ To get a local copy of this project up and running, follow these steps:
 4. The app will display whether your answer is correct and will show your final score at the end.
 
 ## File Structure
-- `Start.html`: The main HTML file that initializes the quiz.
-- `index.html`: The second HTML file that displays the question of the quiz.
+- `index.html`: The main HTML file that initializes the quiz.
+- `Questions.html`: The second HTML file that displays the question of the quiz.
 - `styles.css`: The CSS file that styles the quiz app.
 - `script.js`: The JavaScript file that contains the logic for displaying questions, checking answers, and tracking the score.
 
